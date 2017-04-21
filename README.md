@@ -2,7 +2,7 @@
 A simple django project for having user's reviews sharded on multiple postgres tables
 
 ## About
-A simple implementation making use of https://github.com/JBKahn/django-sharding . The goal is to have ReviewShardedModel model sharded on multiple tables according to the user they belong to.
+A simple implementation making use of https://github.com/JBKahn/django-sharding which is based on [Database routers](https://docs.djangoproject.com/en/1.11/topics/db/multi-db/#database-routers). The goal is to have ReviewShardedModel model sharded on multiple tables according to the user they belong to.
 
 ## Make it work
 1. clone the repo etc etc
