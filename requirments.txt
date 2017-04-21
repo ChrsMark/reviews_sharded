@@ -1,0 +1,11 @@
+appdirs==1.4.3
+dj-database-url==0.4.1
+Django==1.11
+django-extensions==1.7.8
+git+git://github.com/ChrsMark/django-sharding.git@master
+packaging==16.8
+psycopg2==2.7.1
+pyparsing==2.2.0
+pytz==2017.2
+six==1.10.0
+ipdb==0.10.2
