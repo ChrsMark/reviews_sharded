@@ -12,4 +12,8 @@ A simple implementation making use of https://github.com/JBKahn/django-sharding 
 5. ./manage.py migrate
 6. './manage.py createsuperuser`
 7. login to django-admin and create more users.
-8. finally you can create ReviewShardedModel objects for your shell or the django-admin.
+8. finally you can create ReviewShardedModel objects from your shell
+
+NOTE: `ReviewShardedModel.objects.all() is not expected to work`
+
+For more information the (docs)[http://josephkahn.io/django-sharding/] may come handy.
