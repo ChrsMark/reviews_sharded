@@ -16,4 +16,4 @@ A simple implementation making use of https://github.com/JBKahn/django-sharding 
 
 NOTE: `ReviewShardedModel.objects.all() is not expected to work`
 
-For more information the (docs)[http://josephkahn.io/django-sharding/] may come handy.
+For more information the [docs](http://josephkahn.io/django-sharding/) may come handy.
